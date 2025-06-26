@@ -1,0 +1,13 @@
+const apiKey = "e74e30300504cec4b076cf6622dbcdcd";
+const apiUrl = "https://api.openweathermap.org/data/2.5/weather?units=metric&q=kolkata ";
+
+async function checkWeather(){
+    const response = await fetch(apiUrl + `&appid=${apiKey}`);
+    var data = await response.json();
+
+    console.log(data);
+}
+checkWeather();
+
+
+ 

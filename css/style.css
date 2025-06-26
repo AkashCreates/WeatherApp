@@ -12,10 +12,11 @@ body{
     width: 90%;
     max-width: 500px;
     background-image: linear-gradient(135deg, #D8B5FF, #1EAE98);
-    border-radius: 20px;
+    border-radius: 30px;
     margin: 100px auto 0;
-    padding: 30px;
+    padding: 50px;
     text-align: center;
+    color: white;
 }
 
 .search{
@@ -49,4 +50,42 @@ body{
 }
 .search button img{
     width: 18px;
+}
+
+
+.weather-icon{
+    width: 170px;
+    margin-top: 30px;
+}
+.weather h1{
+    font-size: 80px;
+    font-weight: 500;
+}
+.weather h2{
+    font-size: 40px;
+    font-weight: 400;
+    margin-top: 10px;
+}
+
+.details{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+    padding: 0 20px;
+}
+
+.col{
+    display: flex;
+    align-items: center;
+
+}
+.col img{
+    width: 40px;
+    margin-right: 10px;
+}
+
+.humidity,.wind{
+    font-size: 28px;
+    margin-top: -6px;
 }
